@@ -31,10 +31,6 @@ public class ImageLoaderLibrary {
 
     public class ImageLoader extends AsyncTask<String, Void, Bitmap> {
 
-        // make a URL connection
-        // open a stream
-        // convert the bytes
-
         private ImageView imageView;
 
         public ImageLoader(ImageView imageView) {
